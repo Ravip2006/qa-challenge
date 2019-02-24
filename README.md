@@ -1,5 +1,14 @@
 # Code Challenge
 
+## QA Principles
+
+Prevention over goalkeeping
+Risk based test coverage over systematic test coverage
+Testing skill over test detail
+Automation over manual (as much as possible)
+Fail as a team over Success as an individual
+Continuous Improvement over big bang changes
+   
 ## Instruction for you mission:
 
 Fork this project, and provide your own github or bitbucket repository.
@@ -24,10 +33,13 @@ API documentation https://qa-challenges-lightbulb.atlassian.io/api/allmethods
 
 - AC1. I want to turn on and off my light
 
+    - 1 point per test case executed
+    - 2 points per Bug found and Documented
+
 Provide a reports of the exucution and any bugs found ( be creative )
 
 
-### WEB Automation
+### WEB
 
 Go to URL : http://phptravels.com/demo/
 
@@ -36,15 +48,21 @@ Create an automated smoke test suite using http://devexpress.github.io/testcafe/
 
 - AC1. I want to be able book hotels, flights or tours
 
+    - 1 point per test case executed
+    - 2 points per Bug found and Documented
+
 Provide a reports of the exucution and any bugs found ( be creative )
 
 
-### MOBILE Automation
+### MOBILE
 
 Go to https://apkpure.com/fitbit/com.fitbit.FitbitMobile/download
 Create an automated smoke test suite using http://appium.io/ and any BDD framework
 
 - AC1. User is able to login
+
+    - 1 point per test case executed
+    - 2 points per Bug found and Documented
 
 Provide a reports of the exucution and any bugs found ( be creative )
 

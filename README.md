@@ -26,12 +26,13 @@ Use best practices to write code which you follow in your day to day development
 
 ### REST API 
 
-Go to URL : https://qa-challenges-lightbulb.atlassian.io
+Go to URL : https://www.weatherbit.io/api/swaggerui/weather-api-v2#/
 Create an automated regression for the below ACs
 Using either RestAssure or Newman
-API documentation https://qa-challenges-lightbulb.atlassian.io/api/allmethods
+API documentation https://www.weatherbit.io/api/swaggerui/weather-api-v2#/
 
-- AC1. I want to turn on and off my light
+- AC1. I want to get Current Weather Data for multiple places in the world base on Lat and Lon
+- AC2. I want to get Current Weather Data for multiple places in the world base on PostCode
 
     - 1 point per test case executed
     - 2 points per Bug found and Documented

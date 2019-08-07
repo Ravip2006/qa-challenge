@@ -1,0 +1,8 @@
+
+<suite name="com.testcode.demo">
+ <test name="testngTest">
+ <classes>
+ <class name="com.testcode.demo.WeatherChannelService" />
+ </classes>
+ </test>
+</suite>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.testcode.demo" duration-ms="10841" started-at="2019-08-07T07:30:24Z" finished-at="2019-08-07T07:30:35Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="10841" started-at="2019-08-07T07:30:24Z" finished-at="2019-08-07T07:30:35Z">
+      <class name="com.testcode.demo.WeatherChannelService">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="setup" is-config="true" duration-ms="872" started-at="2019-08-07T17:30:24Z" finished-at="2019-08-07T17:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_WeatherChannelServiceLatLong(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="test_WeatherChannelServiceLatLong" duration-ms="5358" started-at="2019-08-07T17:30:25Z" data-provider="LatLon" finished-at="2019-08-07T17:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[78]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Viligili]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WeatherChannelServiceLatLong -->
+        <test-method status="PASS" signature="test_WeatherChannelServiceLatLongInCorrectAPIKey(java.lang.String, java.lang.String)[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="test_WeatherChannelServiceLatLongInCorrectAPIKey" duration-ms="1111" started-at="2019-08-07T17:30:30Z" data-provider="InvalidAPIKey" finished-at="2019-08-07T17:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WeatherChannelServiceLatLongInCorrectAPIKey -->
+        <test-method status="PASS" signature="test_WeatherChannelServicePostalCode(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="test_WeatherChannelServicePostalCode" duration-ms="1189" started-at="2019-08-07T17:30:31Z" data-provider="zipcode" finished-at="2019-08-07T17:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2067]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chatswood West]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WeatherChannelServicePostalCode -->
+        <test-method status="PASS" signature="test_WeatherChannelServicePostalCode(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="test_WeatherChannelServicePostalCode" duration-ms="1170" started-at="2019-08-07T17:30:32Z" data-provider="zipcode" finished-at="2019-08-07T17:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rosario]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WeatherChannelServicePostalCode -->
+        <test-method status="PASS" signature="test_WeatherChannelServicePostalCode(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testcode.demo.WeatherChannelService@3498ed]" name="test_WeatherChannelServicePostalCode" duration-ms="1126" started-at="2019-08-07T17:30:34Z" data-provider="zipcode" finished-at="2019-08-07T17:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2066]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lane Cove North]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_WeatherChannelServicePostalCode -->
+      </class> <!-- com.testcode.demo.WeatherChannelService -->
+    </test> <!-- testngTest -->
+  </suite> <!-- com.testcode.demo -->
+</testng-results>

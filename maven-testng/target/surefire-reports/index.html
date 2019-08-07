@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.testcode.demo">
+              <span class="suite-name border-passed">com.testcode.demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.testcode.demo">
+                    <span>C:\git\qa-challenge\maven-testng\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.testcode.demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.testcode.demo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.testcode.demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.testcode.demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.testcode.demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.testcode.demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.testcode.demo" class="hide-methods passed suite-com.testcode.demo"> (hide)</a> <!-- hide-methods passed suite-com.testcode.demo -->
+                      <a href="#" panel-name="suite-com.testcode.demo" class="show-methods passed suite-com.testcode.demo"> (show)</a> <!-- show-methods passed suite-com.testcode.demo -->
+                    </span>
+                    <div class="method-list-content passed suite-com.testcode.demo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.testcode.demo" title="com.testcode.demo.WeatherChannelService" hash-for-method="test_WeatherChannelServiceLatLong(01, 78, Viligili, MV)">test_WeatherChannelServiceLatLong(01, 78, Viligili, MV)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.testcode.demo" title="com.testcode.demo.WeatherChannelService" hash-for-method="test_WeatherChannelServiceLatLongInCorrectAPIKey(01, 78)">test_WeatherChannelServiceLatLongInCorrectAPIKey(01, 78)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.testcode.demo" title="com.testcode.demo.WeatherChannelService" hash-for-method="test_WeatherChannelServicePostalCode(2000, Rosario, AR)">test_WeatherChannelServicePostalCode(2000, Rosario, AR)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.testcode.demo" title="com.testcode.demo.WeatherChannelService" hash-for-method="test_WeatherChannelServicePostalCode(2066, Lane Cove North, AU)">test_WeatherChannelServicePostalCode(2066, Lane Cove North, AU)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.testcode.demo" title="com.testcode.demo.WeatherChannelService" hash-for-method="test_WeatherChannelServicePostalCode(2067, Chatswood West, AU)">test_WeatherChannelServicePostalCode(2067, Chatswood West, AU)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.testcode.demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.testcode.demo" class="panel com.testcode.demo">
+          <div class="suite-com.testcode.demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcode.demo.WeatherChannelService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_WeatherChannelServiceLatLong(01, 78, Viligili, MV)">
+                  </a> <!-- test_WeatherChannelServiceLatLong(01, 78, Viligili, MV) -->
+                  <span class="method-name">test_WeatherChannelServiceLatLong</span>
+                  <span class="parameters">(01, 78, Viligili, MV)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_WeatherChannelServiceLatLongInCorrectAPIKey(01, 78)">
+                  </a> <!-- test_WeatherChannelServiceLatLongInCorrectAPIKey(01, 78) -->
+                  <span class="method-name">test_WeatherChannelServiceLatLongInCorrectAPIKey</span>
+                  <span class="parameters">(01, 78)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_WeatherChannelServicePostalCode(2000, Rosario, AR)">
+                  </a> <!-- test_WeatherChannelServicePostalCode(2000, Rosario, AR) -->
+                  <span class="method-name">test_WeatherChannelServicePostalCode</span>
+                  <span class="parameters">(2000, Rosario, AR)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_WeatherChannelServicePostalCode(2066, Lane Cove North, AU)">
+                  </a> <!-- test_WeatherChannelServicePostalCode(2066, Lane Cove North, AU) -->
+                  <span class="method-name">test_WeatherChannelServicePostalCode</span>
+                  <span class="parameters">(2066, Lane Cove North, AU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_WeatherChannelServicePostalCode(2067, Chatswood West, AU)">
+                  </a> <!-- test_WeatherChannelServicePostalCode(2067, Chatswood West, AU) -->
+                  <span class="method-name">test_WeatherChannelServicePostalCode</span>
+                  <span class="parameters">(2067, Chatswood West, AU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.testcode.demo-class-passed -->
+        </div> <!-- panel com.testcode.demo -->
+        <div panel-name="test-xml-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\git\qa-challenge\maven-testng\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.testcode.demo&quot;&gt;
+  &lt;test name=&quot;testngTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcode.demo.WeatherChannelService&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testngTest --&gt;
+&lt;/suite&gt; &lt;!-- com.testcode.demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.testcode.demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testngTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.testcode.demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.testcode.demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.testcode.demo');
+function tableData_com.testcode.demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_WeatherChannelServiceLatLong')
+data.setCell(0, 2, 'com.testcode.demo.WeatherChannelService')
+data.setCell(0, 3, 5358);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_WeatherChannelServicePostalCode')
+data.setCell(1, 2, 'com.testcode.demo.WeatherChannelService')
+data.setCell(1, 3, 1189);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_WeatherChannelServicePostalCode')
+data.setCell(2, 2, 'com.testcode.demo.WeatherChannelService')
+data.setCell(2, 3, 1170);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_WeatherChannelServicePostalCode')
+data.setCell(3, 2, 'com.testcode.demo.WeatherChannelService')
+data.setCell(3, 3, 1126);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_WeatherChannelServiceLatLongInCorrectAPIKey')
+data.setCell(4, 2, 'com.testcode.demo.WeatherChannelService')
+data.setCell(4, 3, 1111);
+window.suiteTableData['com.testcode.demo']= { tableData: data, tableDiv: 'times-div-com.testcode.demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-com.testcode.demo">
+              </div> <!-- times-div-com.testcode.demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.testcode.demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.testcode.demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcode.demo.WeatherChannelService</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_WeatherChannelServiceLatLong(01, 78, Viligili, MV)</span>
+                <span class="method-start">875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_WeatherChannelServiceLatLongInCorrectAPIKey(01, 78)</span>
+                <span class="method-start">6235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_WeatherChannelServicePostalCode(2067, Chatswood West, AU)</span>
+                <span class="method-start">7347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_WeatherChannelServicePostalCode(2000, Rosario, AR)</span>
+                <span class="method-start">8536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_WeatherChannelServicePostalCode(2066, Lane Cove North, AU)</span>
+                <span class="method-start">9706 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
